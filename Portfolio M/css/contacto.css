@@ -1,0 +1,168 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/paris_skyline_at_sunset-1680x1050.jpg);
+
+/* Para dejar la imagen de fondo centrada, vertical y
+horizontalmente */
+background-position: center center;
+/* Para que la imagen de fondo no se repita */
+background-repeat: no-repeat;
+/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+background-attachment: fixed;
+/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+background-size: cover;
+/* Se muestra un color de fondo mientras se está cargando la imagen
+de fondo o si hay problemas para cargarla */
+background-color: #aaaaaa;
+
+}
+
+header{
+    padding: 20px 15px;
+}
+
+#logo{
+    width: 10px;
+    height: 10px;
+    background-color: #30395c;
+    display: inline-block;
+}
+#top-nav{
+    float: right;
+    
+
+}
+#top-nav a{
+    display: inline-block;
+    font-family: sans-serif;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 15px;
+}
+#top-nav a:hover{
+    color: #85a5CC;
+    text-decoration: none;
+    padding: 0 15px;
+
+
+}
+
+.contenedor .form .form-header .form-title {
+    font-weight: normal;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 14px 0;
+
+}   
+.contenedor .form .form-header .form-title span{
+    color: #ffffff;
+
+}
+
+.contenedor .form {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    padding: 5px 35px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+
+
+}
+.contenedor .form .form-label{
+    display: block;
+    color: #ff851b;
+    font-size: 16px;
+    font-family: sans-serif;
+    position: relative;
+}
+
+.contenedor .form .form-input, .form-textarea{
+    background: rgba(0, 0, 0, 0.7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ff851b;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #FFF;
+    font-family: sans-serif;
+}
+.contenedor .form .form-textarea{
+    resize: vertical;
+    max-height: 150px;
+    min-height: 50px;
+
+}
+.contenedor .form .btn-submit{
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    outline: none;
+    background: #ff851b;
+    font-size: 16px;
+    border: none;
+    color: #ffffff;
+    padding: 15px 0;
+    cursor: pointer;
+    transition: all .5s ease;
+
+}
+.contenedor .form .btn-submit:hover{
+    background: #f29718;
+
+}
+
+.social-bar{
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+.icon{
+    color: white;
+    text-decoration: none;
+    padding: 0.7rem;
+    display: flex;
+    transition: all 0.5s;
+}
+.icon-facebook{
+    background: #2e406e;
+    
+
+}
+.icon-youtube{
+    background: #E83028;
+}
+.icon-twitter{
+    background: #339DC5;
+
+}
+.icon-map-signs{
+    background: green;
+}
+.icon:first-child{
+    border-radius: 1rem 0 0 0;
+}
+.icon:last-child{
+    border-radius: 0 0 0 1rem;
+}
+.icon:hover{
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42);
+}
+

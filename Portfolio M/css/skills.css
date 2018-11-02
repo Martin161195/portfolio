@@ -1,0 +1,70 @@
+body{
+    /* Ubicación de la imagen */
+background-image: url(../img/skills.jpg);
+/* Para dejar la imagen de fondo centrada, vertical y
+horizontalmente */
+background-position: center center;
+/* Para que la imagen de fondo no se repita */
+background-repeat: no-repeat;
+/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+background-attachment: fixed;
+/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+background-size: cover;
+background-color: #fff;
+}
+h2 {
+    color:goldenrod;
+    
+    text-align: center;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.container ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.container ul li{
+    float:left;
+    list-style: none;
+    width:20%;
+    height:300px;
+    background:none;
+    margin :20px 0px 20px 55px; 
+    border:2px solid navy;
+    box-sizing: border-box;
+}
+.container ul li:hover{
+    opacity: 0.8;
+}
+
+.container ul li .bottom{
+    width: 100%;
+    height:50px;
+    line-height: 50px;
+    background:teal;    
+    text-align: center;
+    color:black;
+    font-size: 20px;
+   
+}
+.container  p{
+    text-align:  center;
+    color: beige;
+
+
+}
+@media screen and (max-width:1250px){
+    .container ul li{
+        width:40%;
+        margin-left: 40px;
+         
+    }
+}
+

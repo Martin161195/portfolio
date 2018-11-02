@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+header{
+    padding: 20px 15px;
+}
+
+#logo{
+    width: 10px;
+    height: 10px;
+    background-color: #30395c;
+    display: inline-block;
+}
+#top-nav{
+    float: right;
+    
+
+}
+#top-nav a{
+    display: inline-block;
+    font-family: sans-serif;
+    color:teal;
+    text-decoration: none;
+    padding: 15px 15px;
+}
+#top-nav a:hover{
+    color: #85a5CC;
+    text-decoration: none;
+    padding: 0 15px;
+
+
+}
+
+
